@@ -9,9 +9,9 @@ public class Rectangle12 {
         int kolom = sc.nextInt();
         for (int i = 1; i <= baris; i++) {
             for (int j = 1; j <= kolom; j++) {
-            System.out.print("*");
+            System.out.print("#");
             }    
-            
+            System.out.println();
         }
         sc.close();
         
