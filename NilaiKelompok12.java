@@ -11,7 +11,7 @@ public class NilaiKelompok12 {
             System.out.println("Jumlah kelompok dan penilai harus > 0.");
         } else {
             int nomerKelompok = 1;
-            double rataTertinggi = -1;
+            double rataTertinggi = 0;
             int kelompokTerbaik = 0;
             while (nomerKelompok <= jumlahKelompok) {
                 System.out.println("Kelompok "+ nomerKelompok);
